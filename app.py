@@ -43,8 +43,8 @@ def prev_step():
 
 
 
-st.set_page_config(page_title="AAPL Forecasting System", layout="wide")
-st.title("📈 Apple Stock Price Forecasting System")
+st.set_page_config(page_title="AAPL Forecasting Engine", layout="wide")
+st.title("📈 Multi Model Apple Stock Forecasting Engine")
 
 # ===== PIPELINE VISUAL =====
 steps = [
@@ -675,3 +675,4 @@ if st.session_state.step >= 6:
 
 
     st.dataframe(summary_df)
+
