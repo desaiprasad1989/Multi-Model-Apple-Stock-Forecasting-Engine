@@ -673,4 +673,5 @@ if st.session_state.step >= 6:
         ]
     })
 
+
     st.dataframe(summary_df)
